@@ -16,8 +16,8 @@ const unsigned long waittime = 2000L;
 
 
 // Specify data and clock connections and instantiate SHT1x object
-#define dataPin  10
-#define clockPin 11
+#define dataPin  D0
+#define clockPin D1
 SHT1x sht1x(dataPin, clockPin);
 
 void setup()
