@@ -12,7 +12,7 @@
  */
  
 unsigned long wait = millis();              //Delay timer to create a non-delay() x-second sampling timer
-const unsigned long waittime = 2000L;
+const unsigned long waittime = 5000L;
 
 
 // Specify data and clock connections and instantiate SHT1x object
